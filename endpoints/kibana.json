@@ -1,0 +1,14 @@
+{
+  "id": "endpoints",
+  "version": "1.0.0",
+  "kibanaVersion": "kibana",
+  "owner": {
+    "name": "mumbler6",
+    "githubTeam": ""
+  },
+  "description": "endpoints for carbon black plugin ",
+  "server": true,
+  "ui": false,
+  "requiredPlugins": ["navigation"],
+  "optionalPlugins": []
+}
