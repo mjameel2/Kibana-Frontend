@@ -4,8 +4,8 @@ import { PluginInitializerContext } from '../../../src/core/server';
 //  as well as, Kibana Platform `plugin()` initializer.
 
 export async function plugin(initializerContext: PluginInitializerContext) {
-  const { BarPlugin } = await import('./plugin');
-  return new BarPlugin(initializerContext);
+  const { EndpointsPlugin } = await import('./plugin');
+  return new EndpointsPlugin(initializerContext);
 }
 
-export type { BarPluginSetup, BarPluginStart } from './types';
+export type { EndpointsPluginSetup, EndpointsPluginStart } from './types';

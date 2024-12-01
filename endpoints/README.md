@@ -1,4 +1,4 @@
-# bar
+# endpoints
 
 A Kibana plugin
 

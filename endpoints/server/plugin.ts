@@ -6,10 +6,10 @@ import {
   Logger,
 } from '../../../src/core/server';
 
-import { BarPluginSetup, BarPluginStart } from './types';
+import { EndpointsPluginSetup, EndpointsPluginStart } from './types';
 import { defineRoutes } from './routes';
 
-export class BarPlugin implements Plugin<BarPluginSetup, BarPluginStart> {
+export class EndpointsPlugin implements Plugin<EndpointsPluginSetup, EndpointsPluginStart> {
   private readonly logger: Logger;
 
   constructor(initializerContext: PluginInitializerContext) {
@@ -17,7 +17,7 @@ export class BarPlugin implements Plugin<BarPluginSetup, BarPluginStart> {
   }
 
   public setup(core: CoreSetup) {
-    this.logger.debug('bar: Setup');
+    this.logger.debug('endpoints: Setup');
     const router = core.http.createRouter();
 
     // Register server side APIs
@@ -27,7 +27,7 @@ export class BarPlugin implements Plugin<BarPluginSetup, BarPluginStart> {
   }
 
   public start(core: CoreStart) {
-    this.logger.debug('bar: Started');
+    this.logger.debug('endpoints: Started');
     return {};
   }
 
