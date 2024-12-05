@@ -3,7 +3,7 @@ import { IRouter } from '../../../../src/core/server';
 export function defineRoutes(router: IRouter) {
   router.get(
     {
-      path: '/api/endpoints/example',
+      path: '/api/endpoints/alerts',
       validate: false,
     },
     async (context, request, response) => {
