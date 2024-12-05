@@ -4,7 +4,7 @@ import { schema } from '@kbn/config-schema';
 export function defineRoutes(router: IRouter) {
   router.get(
     {
-      path: '/api/endpoints/example',
+      path: '/api/endpoints/alerts',
       validate: false,
     },
     async (context, request, response) => {
@@ -47,8 +47,8 @@ export function defineRoutes(router: IRouter) {
       path: '/api/endpoints/search',
       validate: {
         query: schema.object({
-          fields: schema.arrayOf(schema.string(), { minSize: 1 }),
-          values: schema.arrayOf(schema.string(), { minSize: 1 }),
+          fields: schema.arrayOf(schema.string(), { minSize: 0 }),
+          values: schema.arrayOf(schema.string(), { minSize: 0 }),
           size: schema.maybe(schema.number()), // Optional size of results
         }),
       },
