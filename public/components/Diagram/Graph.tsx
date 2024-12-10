@@ -10,7 +10,7 @@ import ReactFlow, {
 
 // My libraries
 import { Node } from './Node';
-import { EndpointEvent, GraphEdge, GraphNode, GraphNodeData } from '../../../common/model';
+import { GraphEdge, GraphNode, GraphNodeData } from '../../../common/model';
 import { EndpointEventsProviderContext } from '../../context/EndpointEventsProvider';
 
 const reactflowwrapper_css_style = {

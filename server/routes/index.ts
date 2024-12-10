@@ -33,7 +33,7 @@ export function defineRoutes(router: IRouter) {
       try {
         const core = await context.core;
         const result = await core.elasticsearch.client.asCurrentUser.search({
-          index: '.ds-logs-carbon_black_cloud.watchlist_hit-default-2024.12.01-000001',
+          index: '.ds-logs-carbon_black_cloud.watchlist_hit-default-2024.12.10-000001',
           body: {
             from: from,
             _source: [
@@ -99,7 +99,7 @@ export function defineRoutes(router: IRouter) {
         const core = await context.core;
         const result = await core.elasticsearch.client.asCurrentUser.search({
           from: from,
-          index: '.ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001',
+          index: '.ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.10-000001',
           body: {
             _source: [
               'agent',

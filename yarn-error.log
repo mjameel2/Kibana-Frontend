@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/omjivandas/.nvm/versions/node/v18.18.2/bin/node /Users/omjivandas/kibana/.yarn/releases/yarn-1.22.19.cjs install
+
+PATH: 
+  /Users/omjivandas/.nvm/versions/node/v18.18.2/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Users/omjivandas/.cargo/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/Users/omjivandas/anaconda3/bin:/Users/omjivandas/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Users/omjivandas/.cargo/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Invariant Violation: There should only be one folder in a package cache (got  in /Users/omjivandas/Library/Caches/Yarn/v6/npm-caniuse-lite-1.0.30001686-0e04b8d90de8753188e93c9989d56cb19d902670-integrity/node_modules)
+      at invariant (/Users/omjivandas/kibana/.yarn/releases/yarn-1.22.19.cjs:2015:15)
+      at /Users/omjivandas/kibana/.yarn/releases/yarn-1.22.19.cjs:72386:7
+      at Generator.next (<anonymous>)
+      at step (/Users/omjivandas/kibana/.yarn/releases/yarn-1.22.19.cjs:310:30)
+      at /Users/omjivandas/kibana/.yarn/releases/yarn-1.22.19.cjs:321:13
+
+npm manifest: 
+  {
+    "name": "cs598",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "bootstrap": "yarn kbn bootstrap && yarn install",
+      "build": "yarn plugin-helpers build",
+      "dev": "yarn plugin-helpers dev",
+      "plugin-helpers": "node ../../scripts/plugin_helpers",
+      "kbn": "node ../../scripts/kbn"
+    },
+    "dependencies": {
+      "react-flow-renderer": "^10.3.17"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
