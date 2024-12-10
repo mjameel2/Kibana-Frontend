@@ -14,7 +14,6 @@ interface FocusedWatchlistHitProviderProps {
 const FocusedWatchlistHitProvider = ({ children }: FocusedWatchlistHitProviderProps) => {
   const [focusedWatchlistHit, setFocusedWatchlistHit] = useState('');
   const updateFocusedWatchlistHit = (newFocusedWatchlistHit: any) => setFocusedWatchlistHit(newFocusedWatchlistHit);
-  console.log('focusedWatchlistHit', focusedWatchlistHit)
   return (
     <FocusedWatchlistHitContext.Provider value={{ focusedWatchlistHit, updateFocusedWatchlistHit }}>
       {children}

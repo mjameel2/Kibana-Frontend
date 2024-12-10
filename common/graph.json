@@ -1,0 +1,3242 @@
+[
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "61b404d474-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:wdPUCwwJFAlh2CWhhv25+f5j33o=",
+                  "backend": {
+                      "timestamp": "2024-04-22 14:15:24 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 14:14:45.0803945 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "23a3d789e7-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:QOVJIh/S5oysZJ7K4ZxrTTfzPbQ=",
+                  "backend": {
+                      "timestamp": "2024-04-22 14:23:24 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 14:23:08.7286459 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "9e0383d9c0-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:fpsxzBpKC+8ZXwWdz7lt5r5q+e8=",
+                  "backend": {
+                      "timestamp": "2024-04-22 15:31:26 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 15:29:21.860687 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "eee6fdf171-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:dPikykigTz/QCKvzWVe97leWFtw=",
+                  "backend": {
+                      "timestamp": "2024-04-22 14:59:25 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 14:57:32.5144642 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e6a8437501-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:Ln7IANlojEU62jz9k2CxAAMAKgc=",
+                  "backend": {
+                      "timestamp": "2024-04-22 16:35:28 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 16:34:35.0256157 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e6a8437501-000000001652",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:0Y3aZGEL+qqpi0SzutR0N3Rn84w=",
+                  "backend": {
+                      "timestamp": "2024-04-22 16:35:28 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 16:34:35.0256157 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "73cc31835c-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:n/2gioV+QLWzxq1zT189CAqg+3k=",
+                  "backend": {
+                      "timestamp": "2024-04-22 18:23:32 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 18:21:43.5367287 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "abaf094dff-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:dxMgnu81QNOfapqgxqjt7yziV6w=",
+                  "backend": {
+                      "timestamp": "2024-04-22 19:57:35 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 19:57:13.2320492 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "abaf094dff-000000001652",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:sWdEzsb1xdgiYGF7E/azDNH3NQM=",
+                  "backend": {
+                      "timestamp": "2024-04-22 19:57:35 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 19:57:13.2320492 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "a2f4905a2d-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:pZlWJYTsHIIt0gUUxMdD7mBW/kE=",
+                  "backend": {
+                      "timestamp": "2024-04-22 23:31:41 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-22 23:29:45.2482929 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "53c010fb82-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:HGwAJiFj47+BIaAmkjowjhf300I=",
+                  "backend": {
+                      "timestamp": "2024-04-23 14:52:03 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 14:51:16.0840998 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "894b475fa5-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:YqvxvDsllOXKqWNw0dk4YZkbUa8=",
+                  "backend": {
+                      "timestamp": "2024-04-23 15:30:04 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 15:28:07.3176558 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "84a2f0096c-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:6RUll2dxrl2fonrkKiI4shlGrYY=",
+                  "backend": {
+                      "timestamp": "2024-04-23 16:18:06 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 16:15:59.7661325 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "6839d40061-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:/txevscJEVUzOIoy8SEg/Azv/qw=",
+                  "backend": {
+                      "timestamp": "2024-04-23 16:02:05 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 16:00:56.8161211 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "6e4331305d-000000011781",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:ksaRRGGI+/XZEwvfhFfQ3/sC9BQ=",
+                  "backend": {
+                      "timestamp": "2024-04-23 18:18:09 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 18:17:49.2321715 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "1de711a06d-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:ilrz4mqjwx0kOuzTNtS6QcDXxPM=",
+                  "backend": {
+                      "timestamp": "2024-04-23 18:20:09 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 18:17:58.9001848 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "b330b5e335-000000011782",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:M2zZ+plY7GV6MvKOV0uPl66Iqmg=",
+                  "backend": {
+                      "timestamp": "2024-04-23 20:18:11 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 20:17:34.6258814 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e226a99b85-000000001693",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:Tp/nA21uIuaCARFX3f6Vt7M2xtw=",
+                  "backend": {
+                      "timestamp": "2024-04-23 23:30:16 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 23:29:45.0967587 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "c8b36df234-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:VuTfcnXHmFwmF9ODejUXTpjbdSc=",
+                  "backend": {
+                      "timestamp": "2024-04-23 04:35:49 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 04:34:04.7972873 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "c8b36df234-000000001599",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:XfNswjbCqxpizkdf2iipFuKrm24=",
+                  "backend": {
+                      "timestamp": "2024-04-23 04:35:49 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-23 04:34:04.7972873 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "a2fa078664-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:8IP8906Gpj4uxN/A9vCPyatEgbA=",
+                  "backend": {
+                      "timestamp": "2024-04-24 12:44:34 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-24 12:43:03.0975931 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "8cd01a8308-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:dsce1l0bfshSPePLWeGeWjmwMBI=",
+                  "backend": {
+                      "timestamp": "2024-04-24 19:08:42 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-24 19:06:46.4113227 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "4bf5e92f23-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:rya4rrCuW4P+CyT5+6cpqpSkIvs=",
+                  "backend": {
+                      "timestamp": "2024-04-24 19:44:44 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-24 19:42:46.6594772 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "0f75c3e986-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:5/fz6WWx9mz5mua9ekSbNYr7YZw=",
+                  "backend": {
+                      "timestamp": "2024-04-24 20:16:44 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-24 20:15:27.756859 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e4d930575d-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:z//tCjJr9c9iS4RhwXyPu31Bqe4=",
+                  "backend": {
+                      "timestamp": "2024-05-01 20:33:06 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-05-01 20:32:19.4756561 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e4d930575d-000000001652",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:CI069adOiUei9N7ybZuZNsbSWx0=",
+                  "backend": {
+                      "timestamp": "2024-05-01 20:33:06 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-05-01 20:32:19.4756561 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e4d930575d-000000003250",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:ZbZIdUaH10VrnNU4cDxz353i/l0=",
+                  "backend": {
+                      "timestamp": "2024-05-01 20:33:06 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-05-01 20:32:20.4593613 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "292fc85193-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:aVuTiA6p3CuTKQvakbJ7g97YNYE=",
+                  "backend": {
+                      "timestamp": "2024-05-03 03:09:39 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-05-03 03:08:56.9839289 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "292fc85193-000000001600",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:7LGUzn+CONyMWtgg/JxQoUsu4z0=",
+                  "backend": {
+                      "timestamp": "2024-05-03 03:09:39 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-05-03 03:08:56.9839289 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "292fc85193-000000003252",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:i9UzSg8gBa3NuCaG3oyNR1ktY1I=",
+                  "backend": {
+                      "timestamp": "2024-05-03 03:09:39 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-05-03 03:08:57.0307578 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "55973a4f91-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "4a3a9f0e-be70-42b7-8d86-5177b452f86b",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:egV6tNKX+SZ1ABlrKBN1R2ufbwA=",
+                  "backend": {
+                      "timestamp": "2024-05-06 19:05:28 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-05-06 19:04:10.3199223 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "a5774a4a6a-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:cSBvTuLPqQg01zsw55pblPCyd4M=",
+                  "backend": {
+                      "timestamp": "2024-04-28 22:59:33 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-28 22:58:41.9920388 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "a5774a4a6a-000000001652",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:RQFerWCUHCtyAMz82GGLQjNfjPQ=",
+                  "backend": {
+                      "timestamp": "2024-04-28 22:59:33 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-28 22:58:43.2732113 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "18e9d6cda7-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:Zq/sH/b/CAjEPlNgplkrz8b/2NQ=",
+                  "backend": {
+                      "timestamp": "2024-04-28 08:12:10 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-28 08:11:35.0382457 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "4b223104bf-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:P8FIAJE9wwsLp74EEKUHzuFS9SY=",
+                  "backend": {
+                      "timestamp": "2024-04-29 19:54:01 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-29 19:53:13.0371122 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "4b223104bf-000000001652",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:2dkp8mvviiOTqVc3/lMEhk0Usv0=",
+                  "backend": {
+                      "timestamp": "2024-04-29 19:54:01 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-29 19:53:13.0371122 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "eef10f28e0-000000011775",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:zNHDtJg5N7awjrdtmi0WbsxglD8=",
+                  "backend": {
+                      "timestamp": "2024-04-27 20:17:55 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-27 20:17:26.89407 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "c33ff4fc63-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:gRt8g28PDNWrFzhA6H+Qm6wFPj8=",
+                  "backend": {
+                      "timestamp": "2024-04-27 08:11:38 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-27 08:09:36.586004 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "c33ff4fc63-000000001651",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:UfpMHwRIMco/tlWLjsXJM6xdjXk=",
+                  "backend": {
+                      "timestamp": "2024-04-27 08:11:38 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-27 08:09:36.586004 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e811974dbd-000000011782",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:A63XwAksj2kwVWs8FMTbiG91th0=",
+                  "backend": {
+                      "timestamp": "2024-04-27 08:17:38 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-27 08:17:17.6406144 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "8cf56ab135-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:Ri4mqV70Bfp9W/Av1Be7jEHK6wQ=",
+                  "backend": {
+                      "timestamp": "2024-04-27 08:07:38 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-27 08:07:11.5692346 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "e7c1e441e6-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "type": "filebeat",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:lraCZMN88Cd+FLyZHsIpzLx+yno=",
+                  "backend": {
+                      "timestamp": "2024-04-27 13:05:45 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-27 13:04:29.4768646 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "bdaf070596-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:o63qv/E9CandlP+d/6oFlo4RmwQ=",
+                  "backend": {
+                      "timestamp": "2024-04-27 18:47:53 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-27 18:45:57.4359691 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "f8afd31e67-000000000000",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:Gm+NygCmCvY6CrYs6T+PW0MNoqE=",
+                  "backend": {
+                      "timestamp": "2024-04-25 12:19:06 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-25 12:17:07.8813972 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  },
+  {
+      "_index": ".ds-logs-carbon_black_cloud.endpoint_event-default-2024.12.01-000001",
+      "_id": "2b4e6d193a-000000023692",
+      "_score": 2,
+      "_source": {
+          "agent": {
+              "name": "LAPTOP-MR10D0GP",
+              "id": "8591e941-bdcc-4f7b-a2cc-d0ada96bf80b",
+              "type": "filebeat",
+              "ephemeral_id": "a8bde705-858b-4e19-8d37-df0d762cb6fd",
+              "version": "8.12.2"
+          },
+          "process": {
+              "parent": {
+                  "pid": 892,
+                  "entity_id": "7DMF69PK-0c47c1fe-0000037c-00000000-1da8f824c5d230a",
+                  "command_line": "C:\\Windows\\system32\\services.exe",
+                  "executable": "c:\\windows\\system32\\services.exe",
+                  "hash": {
+                      "sha256": "751cd7ab78b18a2d8a55c47ca75b90a14234ac974d81be5f198d301b59183873",
+                      "md5": "2d072114fa0b9e2b51830510fa5f0f69"
+                  }
+              },
+              "pid": 1668,
+              "entity_id": "7DMF69PK-0c47c1fe-00000684-00000000-1da8f824f66ce8b",
+              "command_line": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p -s Dnscache",
+              "executable": "c:\\windows\\system32\\svchost.exe",
+              "hash": {
+                  "sha256": "2b105fb153b1bcd619b95028612b3a93c60b953eef6837d3bb0099e4207aaf6b",
+                  "md5": "4dd18f001ac31d5f48f50f99e4aa1761"
+              }
+          },
+          "carbon_black_cloud": {
+              "endpoint_event": {
+                  "schema": 1,
+                  "event_origin": "EDR",
+                  "organization_key": "7DMF69PK",
+                  "process": {
+                      "parent": {
+                          "reputation": "REP_WHITE"
+                      },
+                      "publisher": [
+                          {
+                              "name": "Microsoft Windows Publisher",
+                              "state": [
+                                  "FILE_SIGNATURE_STATE_SIGNED",
+                                  "FILE_SIGNATURE_STATE_VERIFIED",
+                                  "FILE_SIGNATURE_STATE_TRUSTED",
+                                  "FILE_SIGNATURE_STATE_OS"
+                              ]
+                          }
+                      ],
+                      "reputation": "REP_WHITE",
+                      "terminated": false,
+                      "username": "NT AUTHORITY\\NETWORK SERVICE"
+                  },
+                  "netconn_community_id": "1:epjBVRKR8pij7Jk8FK/9ICmLXus=",
+                  "backend": {
+                      "timestamp": "2024-04-25 19:07:16 +0000 UTC"
+                  },
+                  "type": "endpoint.event.netconn",
+                  "device": {
+                      "os": "WINDOWS",
+                      "external_ip": "130.126.136.46",
+                      "timestamp": "2024-04-25 19:06:16.0078099 +0000 UTC"
+                  },
+                  "sensor_action": "ACTION_ALLOW",
+                  "version": "1.1.0"
+              }
+          }
+      }
+  }
+]

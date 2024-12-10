@@ -73,7 +73,6 @@ const EndpointEventsProvider = ({ children, http }: EndpointEventsProviderProps)
     (_) => fetchEndpointEvents(_, http),
     {
       getNextPageParam: (lastPage, allPages) => {
-        console.log(lastPage);
         return lastPage && lastPage.length < ENDPOINT_EVENTS_PAGE_SIZE ? false : allPages.length;
       },
       keepPreviousData: true,
